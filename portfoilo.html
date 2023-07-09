@@ -3,23 +3,37 @@
   <head>
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Web site's Hat-->
     <header>
-      <nav>
-        <a href="">Web<span class="">Studio</span></a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+      <a href="./index.html" class="logo"
+        >Web<span class="logo-s-part">Studio</span></a
+      >
+      <nav class="link-list-main-nav-one">
+        <ul class="link-list-main-one">
+          <li><a href="" class="link-list-one">Studio</a></li>
+          <li>
+            <a href="./portfoilo.html" class="link-list-one">Portfolio</a>
+          </li>
+          <li><a href="" class="link-list-one">Contacts</a></li>
         </ul>
-        <address>
-          <a href="">info@devstudio.com</a>
-          <br />
-          <a href="">+11 (000) 111-11-11</a>
-        </address>
       </nav>
+      <address class="contacts-list-main-one">
+        <a href="mailto:info@devstudio.com" class="contacts-list-one"
+          >info@devstudio.com</a
+        >
+        <br />
+        <a href="tel:+110001111111" class="contacts-list-one"
+          >+11 (000) 111-11-11</a
+        >
+      </address>
     </header>
     <div>
       <ul>
@@ -111,11 +125,12 @@
         <p>Web Site</p>
       </section>
     </div>
-    <footer>
-      <nav>
-        <a href="">Web<span>Studio</span></a>
-      </nav>
-      <p>
+    <footer class="footer">
+      <a href="./index.html" class="footer-logo"
+        >Web<span class="footer-logo-s-part">Studio</span></a
+      >
+
+      <p class="footer-paragh">
         Increase the flow of customers and<br />
         sales for your business with digital<br />
         marketing & growth solutions.
@@ -127,13 +142,6 @@
         <li><a href="" aria-label="Link to Facebook">Facebook</a></li>
         <li><a href="" aria-label="Link to Linkedln">Linkedln</a></li>
       </ul>
-      <img
-        src="./images/Dark-bg.jpg"
-        alt="Bg-pic"
-        class="bg-pic"
-        width="1440"
-        height="600"
-      />
     </footer>
   </body>
 </html>
